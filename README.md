@@ -1,6 +1,6 @@
 # Hacker News UI
 
-Angular Front-End app that allows users to view the newest stories from the feed in https://github.com/HackerNews/API
+Angular Front-End app that allows users to view the newest stories from the feed in https://github.com/HackerNews/API <br />
 This UI calls https://github.com/adrlopez/HackerNews API
 
 ## Table of Contents
@@ -23,7 +23,7 @@ A new Angular component was created for displaying search fields and the table w
 
 **Technology**: Angular v15.2.8, Node v16.16.0, RxJS, Angular Material.
 
-### Pre Requisites
+### prerequisites
 
 Start the backend API in your local. See https://github.com/adrlopez/HackerNews
 
@@ -32,7 +32,7 @@ Start the backend API in your local. See https://github.com/adrlopez/HackerNews
 * Install Node JS latest version and Visual Studio Code or desired IDE.
 * Execute 'npm i @angular/cli' in a terminal for installing Angular.
 * Clone and open the repo in Visual Studio Code
-* Open up a new terminal in VSCode, and run 'ng serve'
+* Open up a new terminal in Visual Studio Code, and run 'ng serve'
 * Open up http://localhost:4200/ in a browser
 
 ## Usage
