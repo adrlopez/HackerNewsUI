@@ -21,7 +21,7 @@ This UI consumes a C# .NET Core backend app (https://github.com/adrlopez/HackerN
 The app has been implemented with Angular using the template from .NET. (https://learn.microsoft.com/en-us/aspnet/core/client-side/spa/angular?view=aspnetcore-7.0&tabs=visual-studio)
 A new Angular component was created for displaying search fields and the table with the results. HTML table is rendered using RxJS and Angular Material.
 
-**Technology**: Angular v15.2.8, Node v16.16.0, RxJS, Angular Material.
+**Technology**: Angular v16.2.6, Node v18.18.2, RxJS, Angular Material.
 
 ### Pre Requisites
 
