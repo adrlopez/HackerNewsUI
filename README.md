@@ -30,7 +30,7 @@ Start the backend API in your local. See https://github.com/adrlopez/HackerNews
 ### Installation
 
 * Install Node JS latest version and Visual Studio Code or desired IDE.
-* Execute 'npm i @angular/cli' in a terminal for installing Angular.
+* Execute 'npm install -g @angular/cli' in a terminal for installing Angular.
 * Clone and open the repo in Visual Studio Code
 * Open up a new terminal in Visual Studio Code, and run 'ng serve'
 * Open up http://localhost:4200/ in a browser
