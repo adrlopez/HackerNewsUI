@@ -1,27 +1,44 @@
-# HackerNewsUI
+# Hacker News UI
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.2.
+Angular Front-End app that allows users to view the newest stories from the feed in https://github.com/HackerNews/API
+This UI calls https://github.com/adrlopez/HackerNews API
 
-## Development server
+## Table of Contents
+- [Hacker News UI](#hackernewsui)
+  - [Table of Contents](#table-of-contents)
+  - [Introduction](#introduction)
+  - [Features](#features)
+  - [Pre Requisites](#prerequisites)
+  - [Installation](#installation)
+  - [Usage](#usage)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Introduction
 
-## Code scaffolding
+This UI consumes a C# .NET Core backend app (https://github.com/adrlopez/HackerNews). It returns the new stories from the feed and provides a search functionality.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Features
 
-## Build
+The app has been implemented with Angular using the template from .NET. (https://learn.microsoft.com/en-us/aspnet/core/client-side/spa/angular?view=aspnetcore-7.0&tabs=visual-studio)
+A new Angular component was created for displaying search fields and the table with the results. HTML table is rendered using RxJS and Angular Material.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+**Technology**: Angular v15.2.8, Node v16.16.0, RxJS, Angular Material.
 
-## Running unit tests
+### Pre Requisites
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Start the backend API in your local. See https://github.com/adrlopez/HackerNews
 
-## Running end-to-end tests
+### Installation
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+* Install Node JS latest version and Visual Studio Code or desired IDE.
+* Execute 'npm i @angular/cli' in a terminal for installing Angular.
+* Clone and open the repo in Visual Studio Code
+* Open up a new terminal in VSCode, and run 'ng serve'
+* Open up http://localhost:4200/ in a browser
 
-## Further help
+## Usage
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+The usage of the UI is straightforward. You can search stories by title, score, date, createdBy and page/size.
+
+![Alt text](image.png)
+
+
