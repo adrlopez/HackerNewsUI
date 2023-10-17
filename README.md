@@ -8,7 +8,7 @@ This UI calls https://github.com/adrlopez/HackerNews API
   - [Table of Contents](#table-of-contents)
   - [Introduction](#introduction)
   - [Features](#features)
-  - [Pre Requisites](#prerequisites)
+  - [Prerequisites](#prerequisites)
   - [Installation](#installation)
   - [Usage](#usage)
 
@@ -23,7 +23,7 @@ A new Angular component was created for displaying search fields and the table w
 
 **Technology**: Angular v15.2.8, Node v16.16.0, RxJS, Angular Material.
 
-### Pre Requisites
+### Prerequisites
 
 Start the backend API in your local. See https://github.com/adrlopez/HackerNews
 
