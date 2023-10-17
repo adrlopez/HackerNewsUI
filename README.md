@@ -23,7 +23,7 @@ A new Angular component was created for displaying search fields and the table w
 
 **Technology**: Angular v15.2.8, Node v16.16.0, RxJS, Angular Material.
 
-### prerequisites
+### Pre Requisites
 
 Start the backend API in your local. See https://github.com/adrlopez/HackerNews
 
